@@ -127,7 +127,7 @@ header {
 #features {
 	width: 100%;
 	background-color: #fff;
-	padding-top: 80px;
+	padding-top: 40px;
 }
 #features h1 {
 	margin: 0;
@@ -150,6 +150,9 @@ header {
 	text-align: center;
 	font-weight: 300;
 	color: #222;
+}
+#features img {
+	padding-top: 70px;
 }
 .more-features {
 	padding-top: 110px;
@@ -238,9 +241,9 @@ header {
 }
 .icons_left, .icons_right {
 	float:left;
-	width: 55px;
-	height: 55px;
-	line-height: 55px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
 	text-align: center;
 	color:#0386c9;
 	font-size: 22px;
