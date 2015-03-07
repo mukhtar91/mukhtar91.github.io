@@ -105,6 +105,18 @@ header {
 	clear: both;
 	display: block;
 }
+#intro h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	/*line-height: 32px;*/
+	text-align: right;
+	color: #fff;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	clear: both;
+	display: block;
+}
 .intro-well {
 	text-align: center;
 	position: relative;
@@ -254,6 +266,44 @@ header {
 	margin:10px 0 40px 25px;
 }
 
+/* ========== TESTIMONIALS ========== */
+
+#testimonials {
+	width: 100%;
+	z-index: 100;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	background: #0386c9;
+	background: url(../img/bg_testimonials.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;;
+}
+#testimonials h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 42px;
+	line-height: 48px;
+	font-weight: 300;
+}
+#testimonials form {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+#testimonials form input {
+	width: 362px;
+	height: 52px;
+	border-radius: 0;
+	border: 0;
+}
+#testimonials form button {
+	height: 52px;
+	margin-bottom: 6px;
+}
+
 /* ========== NEWSLETTER ========== */
 
 #newsletter {
@@ -269,11 +319,18 @@ header {
 	background-size: cover;
 	text-align: center;;
 }
-#newsletter h3 {
+#newsletter h1 {
 	margin: 0;
 	padding: 0;
 	color: #fff;
 	font-size: 42px;
+	line-height: 48px;
+	font-weight: 300;
+}
+#newsletter h2 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
 	line-height: 48px;
 	font-weight: 300;
 }
@@ -331,7 +388,8 @@ header {
 }
 /* ========== FOOTER ========== */
 footer {
-	background: #34495e;
+	/*background: #34495e;*/
+	background: url(../img/bg_header.jpg) no-repeat center center;
 	color: #fff;
 	padding: 70px 0;
 	text-align: center;
@@ -339,6 +397,24 @@ footer {
 footer p {
 	font-size: 15px;
 	line-height: 20px;
+}
+footer img {
+	src:"img/logo.png";
+	width:"20%"; 
+	height:"20%";
+	margin-bottom: 10px;
+}
+footer h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	/*line-height: 32px;*/
+	text-align: center;
+	color: #fff;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	clear: both;
+	display: block;
 }
 /* ========== MEDIA QUIRIES ========== */
 @media screen and (max-width:500px) {
