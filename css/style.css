@@ -312,8 +312,8 @@ header {
 #newsletter {
 	width: 100%;
 	z-index: 100;
-	padding-top: 110px;
-	padding-bottom: 110px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	background: #0386c9;
 	background: url(../img/bg_newsletter.jpg);
 	background-position: center top;
@@ -335,6 +335,13 @@ header {
 	padding: 0;
 	color: #fff;
 	line-height: 48px;
+	font-weight: 300;
+}
+#newsletter h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	line-height: 42px;
 	font-weight: 300;
 }
 #newsletter form {
