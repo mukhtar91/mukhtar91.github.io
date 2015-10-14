@@ -118,6 +118,18 @@ header {
 	clear: both;
 	display: block;
 }
+#intro h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	/*line-height: 32px;*/
+	text-align: right;
+	color: #fff;
+	margin-bottom: 0px;
+	margin-top: 3px;
+	clear: both;
+	display: block;
+}
 .intro-well {
 	text-align: center;
 	position: relative;
