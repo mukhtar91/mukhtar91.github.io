@@ -122,8 +122,9 @@ header {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
+	text-decoration: underline;
 	/*line-height: 32px;*/
-	text-align: right;
+	text-align: left;
 	color: #fff;
 	margin-bottom: 0px;
 	margin-top: 3px;
